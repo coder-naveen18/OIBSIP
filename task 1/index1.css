@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(197, 20, 191);
+}
+h1{
+    color: azure;
+}
+
+.text-center{
+    text-align: center;
+  }
+  
+  .bg-red{
+    background: rgb(101, 98, 98);
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+    background-color:black;
+   
+  } 
+  .flex-col{
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+   
+  }
+  
+  .items-center{
+    align-items: center;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(27, 50, 195);
+  border-radius: 9px;
+  cursor: pointer;
+  color: white;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
